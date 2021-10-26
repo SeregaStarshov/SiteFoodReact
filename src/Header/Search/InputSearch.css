@@ -1,0 +1,25 @@
+.header__form {
+    position: relative;
+    width: 52%;
+}
+.form__input-search {
+    width: 100%;
+    padding: 13px 50px 13px 20px;
+    background: rgba(238, 238, 238, 0.71);
+    border-radius: 10px;
+    border: none;
+    color: #57565B;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+}
+.form__button-search {
+    position: absolute;
+    top: 13px;
+    right: 12px;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}

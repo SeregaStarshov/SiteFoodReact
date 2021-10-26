@@ -1,0 +1,30 @@
+.slide {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 399px;
+    border-radius: 20px;
+    position: relative;
+    background-image: url('../../images/product_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide__content {
+    max-width: 389px;
+    margin-left: 100px;
+}
+.slide__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 51px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.slide__subtitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+}

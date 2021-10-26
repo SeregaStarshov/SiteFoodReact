@@ -1,0 +1,9 @@
+.slider-wrapper {
+    position: relative;
+}
+.pagination-wrap {
+    display: flex;
+    position: absolute;
+    bottom: 36px;
+    right: 32px;
+}

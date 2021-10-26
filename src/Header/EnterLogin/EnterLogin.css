@@ -1,0 +1,41 @@
+.header__private-office {
+    width: 26%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header__enter-login {
+    display: inline-block;
+    padding: 16px 30px;
+    text-decoration: none;
+    background: #EBEBEB;
+    border-radius: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin-right: 31px;
+}
+.header__basket {
+    display: inline-block;
+    position: relative;
+    background: #F66A15;
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    padding: 12px;
+}
+.basket-counter {
+    position: absolute;
+    background: #FFAF19;
+    border-radius: 50%;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 9px;
+    color: #000000;
+    right: 0;
+    bottom: 0;
+    padding: 5px;
+}
