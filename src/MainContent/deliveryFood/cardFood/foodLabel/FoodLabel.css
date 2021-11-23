@@ -1,0 +1,10 @@
+.delivery-food__card-label {
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+.delivery-food__card-label--text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}

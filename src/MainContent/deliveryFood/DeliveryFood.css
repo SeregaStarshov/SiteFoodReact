@@ -1,0 +1,11 @@
+.delivery-food {
+    padding-top: 55px;
+}
+.delivery-food__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 23px;
+    color: #000000;
+    margin-bottom: 47px;
+}

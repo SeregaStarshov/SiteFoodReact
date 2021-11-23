@@ -1,0 +1,9 @@
+.delivery-food__card {
+    padding-top: 16px;
+    padding-left: 10px;
+    border-radius: 18px;
+    width: 275px;
+    height: 182px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

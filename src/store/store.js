@@ -1,4 +1,11 @@
-import { createStore } from "redux";
-import { reducer } from "./reducers/reducer";
+import { configureStore } from "@reduxjs/toolkit";
+import {paginationSliceReducer} from './slice/paginationSlice';
 
-export const store = createStore(reducer);
+
+export const store = configureStore(
+    {
+        reducer: {
+            paginationReducer: paginationSliceReducer,
+        }
+    }
+)

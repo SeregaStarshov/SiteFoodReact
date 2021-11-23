@@ -1,0 +1,45 @@
+.section-food__item {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 36px 0 31px 32px;
+    color: #FFFFFF;
+    width: 48%;
+}
+.section-food__item:not(:last-child) {
+    margin-right: 54px;
+}
+.section-food__item-title {
+    max-width: 225px;
+    margin-bottom: 21px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 23px;
+}
+.section-food__item-subtitle {
+    max-width: 225px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 72px;
+}
+.section-food__item-price {
+    max-width: 225px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 23px;
+    margin-bottom: 8px;
+}
+.section-food__item-price-delivery {
+    max-width: 225px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 25px;
+}

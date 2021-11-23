@@ -1,20 +1,30 @@
 import { NEXT, PREV } from "../actions/paginationBtn";
 import { initialState } from "../initialState";
 
+// export const reducer = (state=initialState, action) => {
+//     switch(action.type) {
+//         case NEXT: return {
+//             ...state,
+//             value: state.value + 1
+//         };
+//         case PREV: return {
+//             ...state,
+//             value: state.value - 1
+//         };
+        
+//         default: return state;
+//     };
+// };
+
 export const reducer = (state=initialState, action) => {
-    console.log(action.type)
-    switch(action.type) {
-        case NEXT: return {
-            id: 3,
-            title: "Витаминная неделя",
-            subtitle: "Специальная витаминная овощная корзина!",
-            src: "3"
+    switch(true) {
+        case action.type === NEXT && state.value < state.cards.length - 1: return {
+            ...state,
+            value: state.value + 1
         };
-        case PREV: return {
-            id: 1,
-            title: "Неделя осенних овощей",
-            subtitle: "Специальная осенняя овощная козина.",
-            src: "1"
+        case action.type === PREV && state.value > 0: return {
+            ...state,
+            value: state.value - 1
         };
         
         default: return state;
